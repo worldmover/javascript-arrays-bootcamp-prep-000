@@ -4,4 +4,11 @@ function addElementToBeginningOfArray(array,element){
 }
 function destructivelyAddElementToBeginningOfArray(array,element){
   array[1]=element
+  return array
+}
+function addElementToEndOfArray(array,element){
+  return array.push(element)
+}
+function destructivelyAddElementToEndOfArray(array,element){
+  return array.push(element)
 }
